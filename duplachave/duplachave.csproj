@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>TravaTech.DuplaChave</PackageId>
+    <Title>Biblioteca de substituicao de DuplaChave</Title>
+    <Authors>danidjunior, travatech</Authors>
+    <Company>travatech</Company>
+    <Product>TravaTech.DuplaChave</Product>
+    <Description>Biblioteca de substituicao de texto feito para pegar um arquivo json e substituir os parametros dentro de um arquivo com as tags dentro de duplachave</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryType>https://github.com/TravaTech/duplachave</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
